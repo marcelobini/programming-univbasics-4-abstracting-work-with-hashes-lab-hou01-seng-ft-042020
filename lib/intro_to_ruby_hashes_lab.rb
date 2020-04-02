@@ -1,8 +1,6 @@
 def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
-  my_hash_creator=>(:name, "George")
-  my_hash_creator=>(:id, 5)
-  my_hash_creator=>("age", 39)
+  my_hash_creator = {:name=>"Grace Hopper"} 
 end
 
 def read_from_hash(hash, key)
